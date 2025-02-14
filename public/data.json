@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "title": "Stylish Jacket",
+    "img": "https://images.bestsellerclothing.in/data/only/04-oct-2024/117060401_g0.jpg?width=380&height=500&mode=fill&fill=blur&format=auto",
+    
+    "user": "Trend Experts",
+    "followers": 1200,
+    "totallikes": 100
+    
+  },
+  {
+    "id": 2,
+    "title": "Casual Shoes",
+    "img": "https://fausto.in/cdn/shop/products/FST_FOBWC-1503_GOLDEN_1-1_MOOD_6611f676-23f5-4eb0-bd7b-c527c4123b70_400x.jpg?v=1679576984",
+    "user": "Trend Experts",
+    "followers": 900,
+    "totallikes": 150
+    
+  },
+  {
+    "id": 3,
+    "title": "T-Shirt",
+    "img": "https://twinbirds.co.in/cdn/shop/products/1516-SLIMFITTSHIRT-NAVYRIBBON.jpg?v=1680776094&width=1090",
+    "user": "Trend Experts",
+    "followers": 900,
+    "totallikes": 150
+    
+  },
+  {
+    "id": 4,
+    "title": "Dresses",
+    "img": "https://www.shoplibas.com/cdn/shop/files/37069_0af135c0-a114-47ee-9226-a47ae8bd7478.jpg?v=1739274930",
+   "user": "Trend Experts",
+    "followers": 900,
+    "totallikes": 150
+    
+  },
+  {
+    "id": 5,
+    "title": "FROCKS",
+    "img": "https://m.media-amazon.com/images/I/7103YD5h4ML._AC_UY350_.jpg",
+    "user": "Trend Experts",
+    "followers": 900,
+    "totallikes": 150
+    
+  },
+  {
+    "id": 6,
+    "title": "ACCESSORIES",
+    "img": "https://assets.ajio.com/medias/sys_master/root/20230321/mMfQ/6418eae8aeb26924e3d6392e/-473Wx593H-465682086-gold-MODEL.jpg",
+    "user": "Trend Experts",
+    "followers": 900,
+    "totallikes": 150
+   
+  },
+  {
+    "id": 7,
+    "title": "SAREES",
+    "img": "https://sudathi.com/cdn/shop/files/3731S176_1.jpg?v=1717583858",
+    "user": "Jane Doe",
+    "followers": 900,
+    "totallikes": 150
+    
+  },
+  {
+    "id": 8,
+    "title": "HOME",
+    "img": "https://i.pinimg.com/550x/72/a3/3d/72a33d2bf5102a75013c4645bf866346.jpg",
+    "user": "Jane Doe",
+    "followers": 900,
+    "totallikes": 150
+    
+  }
+]
