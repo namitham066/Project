@@ -164,4 +164,25 @@
   .dropdown-content a:hover {
     background-color: #f1f1f1;
   }
+  .cart-link {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   

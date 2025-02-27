@@ -1,0 +1,755 @@
+[
+  {
+    "id": 1,
+    "category": "Women",
+    "subcategories": [
+      {
+        "subId": 101,
+        "name": "Dresses",
+        "products": [
+          {
+            "productId": "W-S-001",
+            "name": "Ethnic Dress",
+            "img": "https://www.bullionknot.com/cdn/shop/files/Supriyamin_4.jpg?v=1732183976",
+            "price": "Rs. 3000",
+            "likes": 200,
+            "description": "A traditional silk saree perfect for occasions.",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["purple", "blue","pink"]
+          },
+       
+          {
+            "productId": "W-S-002",
+            "name": "Floral Dress",
+            "img": "https://www.bullionknot.com/cdn/shop/files/303-min_3015d19a-f4ae-40dc-91d1-d00991088889.jpg?v=1727088212",
+            "price": "Rs. 500",
+            "likes": 150,
+            "description": "A beautiful floral dress for summer outings.",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["pink", "White"]
+          },
+      
+          {
+            "productId": "W-S-003",
+            "name": "Simple Dress",
+            "img": "https://www.creaturesofhabit.in/cdn/shop/files/DSCF7867_1080x.jpg?v=1717729078",
+            "price": "Rs. 1000",
+            "likes": 150,
+            "description": "A beautiful floral dress for summer outings.",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["brown"]
+          },
+      
+          {
+            "productId": "W-S-004",
+            "name": "Floral Dress",
+            "img": "https://rukminim2.flixcart.com/image/850/1000/xif0q/dress/q/e/s/m-kurti-western-dresses-for-women-girls-dress-womens-stylish-original-imagtkn5bvwtfvtn.jpeg?q=90&crop=false",
+            "price": "Rs. 2500",
+            "likes": 150,
+            "description": "A beautiful floral dress for summer outings.",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["Blue","White"]
+          }
+        ]
+      },
+      {
+        "subId": 102,
+        "name": "Sarees",
+        "products": [
+          {
+            "productId": "W-S-005",
+            "name": "Beautiful Sarees",
+            "img": "https://befashionate.in/cdn/shop/products/tfh-sandalwood-09-sw-406-A_97512530-a847-4bc9-bf21-ea6fae4a8f36.jpg?v=1688054668",
+            "price": "Rs. 1200",
+            "likes": 150,
+            "description": "A beautiful elegant sarees.",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["pink", "White"]
+          },
+      
+          {
+            "productId": "W-S-006",
+            "name": "Beautiful Sarees",
+            "img": "https://mahezon.in/cdn/shop/files/IMG-20240523_155551_950_800x1026_crop_center@2x.jpg?v=1716460010",
+            "price": "Rs. 1200",
+            "likes": 150,
+            "description": "A beautiful elegant sarees.",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["Blue"]
+          },
+       
+          {
+            "productId": "W-S-007",
+            "name": "Beautiful Sarees",
+            "img": "https://www.urbanwardrobe.in/cdn/shop/products/WhatsAppImage2021-03-23at8.18.26PM.jpg?v=1616556456",
+            "price": "Rs. 1200",
+            "likes": 150,
+            "description": "A beautiful elegant sarees.",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["Red", "Black"]
+          },
+     
+          {
+            "productId": "W-S-008",
+            "name": "Beautiful Sarees",
+            "img": "https://mahezon.in/cdn/shop/files/IMG-20240424_113156_691_800x1026_crop_center@2x.jpg?v=1713957838",
+            "price": "Rs. 1200",
+            "likes": 150,
+            "description": "A beautiful elegant sarees.",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["pink"]
+          }
+        ]
+      },
+      {
+        "subId": 103,
+        "name": "Stylish Jacket",
+        "products": [
+          {
+            "productId": "W-S-009",
+            "name": "Denim Jacket",
+            "img": "https://media.centrepointstores.com/i/centrepoint/200175223Blue-200175223CP6820_01-2100.jpg?fmt=auto&$quality-standard$&sm=c&$prodimg-m-prt-pdp-2x$",
+            "price": "1200",
+            "likes": 150,
+            "description": "Choose your Stylish Jacket",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["Red", "Blue", "White"]
+          },
+       
+          {
+            "productId": "W-S-010",
+            "name": "Denim Jacket",
+            "img": "https://rukminim2.flixcart.com/image/850/1000/xif0q/jacket/x/v/3/xxl-no-100756-cefalu-original-imagwk3hng3svfqg.jpeg?q=90&crop=false",
+            "price": "1200",
+            "likes": 150,
+            "description": "Choose your Stylish Jacket",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["Red", "Blue", "White"]
+          },
+       
+          {
+            "productId": "W-S-011",
+            "name": "Denim Jacket",
+            "img": "https://rukminim2.flixcart.com/image/850/1000/xif0q/jacket/e/j/l/l-no-djt261vog-vogati-original-imaguaybnsuj3jsu.jpeg?q=20&crop=false",
+            "price": "1200",
+            "likes": 150,
+            "description": "Choose your Stylish Jacket",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["Red", "Blue", "White"]
+          },
+      
+          {
+            "productId": "W-S-012",
+            "name": "Denim Jacket",
+            "img": "https://rukminim2.flixcart.com/image/850/1000/xif0q/jacket/x/v/3/xxl-no-100756-cefalu-original-imagwk3hng3svfqg.jpeg?q=90&crop=false",
+            "price": "1200",
+            "likes": 150,
+            "description": "Choose your Stylish Jacket",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["Red", "Blue", "White"]
+          }
+        ]
+      },
+      {
+        "subId": 104,
+        "name": "Ethinc Bottom wear",
+        "products": [
+          {
+            "productId": "W-S-013",
+            "name": "Etnic bottom Haul",
+            "img": "https://m.media-amazon.com/images/I/51riKTr6RyL._AC_UY1100_.jpg",
+            "price": "Rs. 1200",
+            "likes": 150,
+            "description": "Choose your Stylish Ethnic cloth",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["Red", "Blue", "White"]
+          },
+       
+          {
+            "productId": "W-S-014",
+            "name": "Etnic bottom Haul",
+            "img": "https://www.libas.in/cdn/shop/files/orange-printed-crepe-skirt-libas-1.jpg?v=1738924601&width=1080",
+            "price": "Rs. 1200",
+            "likes": 150,
+            "description": "Choose your Stylish Ethnic cloth",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["Red", "Blue", "White"]
+          },
+      
+          {
+            "productId": "W-S-015",
+            "name": "Etnic bottom Haul",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyJzhkS9RKLoSHI1y-Nn26Syv5OJE3sO8ttg&s",
+            "price": "Rs. 1200",
+            "likes": 150,
+            "description": "Choose your Stylish Ethnic cloth",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["Red", "Blue", "White"]
+          },
+      
+          {
+            "productId": "W-S-016",
+            "name": "Etnic bottom Haul",
+            "img": "https://images.meesho.com/images/products/401591215/ybgoy_512.webp",
+            "price": "Rs. 1200",
+            "likes": 150,
+            "description": "Choose your Stylish Ethnic cloth",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["Red", "Blue", "White"]
+          }
+        ]
+      },
+      {
+        "subId": 105,
+        "name": "T-Shirt",
+        "products": [
+          {
+            "productId": "W-S-017",
+            "name": "T-Shirts",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRevCsTxoYELLen1Xr4TsddDvP40Qa11W8wfA&s",
+            "price": "Rs. 1200",
+            "likes": 150,
+            "description": "Choose your Stylish T-Shirts",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["Red", "Blue", "White"]
+          },
+     
+          {
+            "productId": "W-S-018",
+            "name": "T-Shirts",
+            "img": "https://www.globalrepublic.in/cdn/shop/products/1_83e28aa9-a80c-41e6-aed6-f306ab41f5c4.jpg?v=1591353307",
+            "price": "Rs. 1200",
+            "likes": 150,
+            "description": "Choose your Stylish T-Shirts",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["Red", "Blue", "White"]
+          },
+       
+          {
+            "productId": "W-S-019",
+            "name": "T-Shirts",
+            "img": "https://rukminim2.flixcart.com/image/850/1000/xif0q/t-shirt/f/c/l/xxl-d6-skyblue-xxl-leafoo-original-imaghevzz3h2gxjx.jpeg?q=90&crop=false",
+            "price": "Rs. 1200",
+            "likes": 150,
+            "description": "Choose your Stylish T-Shirts",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["Red", "Blue", "White"]
+          }
+        ]
+      },
+      {
+        "subId": 106,
+        "name": "T-Shirt",
+        "products": [
+          {
+            "productId": "W-S-020",
+            "name": "T-Shirts",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCeiDba2UE7DIVvAtzZh5-B1-fAb27NpgMSA&s",
+            "price": "Rs. 1200",
+            "likes": 150,
+            "description": "Choose your Stylish T-Shirts",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["Red", "Blue", "White"]
+          }
+        ]
+      },
+      {
+        "subId": 107,
+        "name": "FROCKS",
+        "products": [
+          {
+            "productId": "W-S-021",
+            "name": "FROCKS",
+            "img": "https://beingflawless.com/cdn/shop/files/DSC_5004.jpg?v=1693666305",
+            "price": "Rs. 1200",
+            "likes": 150,
+            "description": "Choose FROCKS",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["Red", "Blue", "White"]
+          },
+       
+          {
+            "productId": "W-S-022",
+            "name": "FROCKS",
+            "img": "https://www.alamodelabel.in/cdn/shop/files/A3146AD1-C0DD-456C-AA39-59DFDB29BA94_600x.jpg?v=1735460746",
+            "price": "Rs. 1200",
+            "likes": 150,
+            "description": "Choose FROCKS",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["Red", "Blue", "White"]
+          },
+        
+          {
+            "productId": "W-S-023",
+            "name": "FROCKS",
+            "img": "https://wear.style/cdn/shop/products/16232409396a24dd1c179021b4706d574e49182a6e.jpg?v=1626123382",
+            "price": "Rs. 1200",
+            "likes": 150,
+            "description": "Choose FROCKS",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["Red", "Blue", "White"]
+          },
+        
+          {
+            "productId": "W-S-024",
+            "name": "FROCKS",
+            "img": "https://www.alamodelabel.in/cdn/shop/files/9AA86F0F-751C-4C82-B463-35E07801512D_600x.jpg?v=1735460741",
+            "price": "Rs. 1200",
+            "likes": 150,
+            "description": "Choose FROCKS",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["Red", "Blue", "White"]
+          }
+        ]
+      },
+      
+
+
+
+
+
+
+
+
+      {
+        "subId": 108,
+        "name": "ACCESSORIES",
+        "products": [
+          {
+            "productId": "W-S-025",
+            "name": "ACCESSORIES",
+            "img": "https://media.istockphoto.com/id/531786318/photo/top-view-of-female-fashion-accessories.jpg?s=612x612&w=0&k=20&c=kA9wOhgfDQiz7RO6GoEztqlPNGaTxZyFwf14991aMM0=",
+            "price": "Rs. 1200",
+            "likes": 150,
+            "description": "Choose ACCESSORIES",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["Red", "Blue", "White"]
+          },
+        
+          {
+            "productId": "W-S-026",
+            "name": "ACCESSORIES",
+            "img": "https://www.alamodelabel.in/cdn/shop/files/A3146AD1-C0DD-456C-AA39-59DFDB29BA94_600x.jpg?v=1735460746",
+            "price": "Rs. 1200",
+            "likes": 150,
+            "description": "Choose ACCESSORIES",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["Red", "Blue", "White"]
+          },
+       
+          {
+            "productId": "W-S-027",
+            "name": "ACCESSORIES",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzCvssb55bpbsgV98Ii15NV1AZ2dPnlZUCCQ&s",
+            "price": "Rs. 1200",
+            "likes": 150,
+            "description": "Choose ACCESSORIES",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["Red", "Blue", "White"]
+          },
+      
+          {
+            "productId": "W-S-028",
+            "name": "ACCESSORIES",
+            "img": "https://images.herzindagi.info/image/2023/Nov/2023-wedding-accessories.jpg",
+            "price": "Rs. 1200",
+            "likes": 150,
+            "description": "Choose ACCESSORIES",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["Red", "Blue", "White"]
+          }
+        ]
+      },
+      {
+        "subId": 109,
+        "name": "Casual Shoes",
+        "products": [
+          {
+            "productId": "W-S-029",
+            "name": "Caual shoes",
+            "img": "https://rukminim2.flixcart.com/image/850/1000/l5ld8y80/shoe/n/c/m/3-ld5507-3-layasa-pink-original-imagg8cnzg7r6y6m.jpeg?q=90&crop=false",
+            "price": "Rs. 1200",
+            "likes": 150,
+            "description": "Choose Shoes of your choice",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["Red", "Blue", "White"]
+          },
+      
+          {
+            "productId": "W-S-030",
+            "name": "Caual shoes",
+            "img": "https://5.imimg.com/data5/SELLER/Default/2023/12/365430631/LB/YJ/FA/6215968/casual-women-shoes.jpg",
+            "price": "Rs. 1200",
+            "likes": 150,
+            "description": "Choose Shoes of your choice",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["Red", "Blue", "White"]
+          },
+      
+          {
+            "productId": "W-S-031",
+            "name": "Caual shoes",
+            "img": "https://m.media-amazon.com/images/I/61tVHfp0y7L._AC_UY1000_.jpg",
+            "price": "Rs. 1200",
+            "likes": 150,
+            "description": "Choose Shoes of your choice",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["Red", "Blue", "White"]
+          },
+        
+        
+          {
+            "productId": "W-S-032",
+            "name": "Caual shoes",
+            "img": "https://redtape.com/cdn/shop/files/RLO1726_8_jpg_95857b2b-60d0-44fd-99a2-e8455001e119.jpg?v=1738403088",
+            "price": "Rs. 1200",
+            "likes": 150,
+            "description": "Choose Shoes of your choice",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["Red", "Blue", "White"]
+          }
+        ]
+      }
+
+      
+    ]
+  },
+
+  
+  {
+    "id": 2,
+    "category": "Men",
+    "subcategories": [
+      {
+        "subId": 201,
+        "name": "Men T-Shirt",
+        "products": [
+          {
+            "productId": "M-z-033",
+            "name": "T- Shirt",
+            "img": "https://thehouseofrare.com/cdn/shop/files/mano-mens-t-shirt-white27624_12378c0a-13fe-4ae7-898c-97937bbc2aae.jpg?v=1719483708",
+            "price": "Rs. 1500",
+            "likes": 200,
+            "description": "A comfortable and stylish casual checked shirt.",
+            "sizes": ["M", "L", "XL"],
+            "color": ["White"]
+          },
+          {
+            "productId": "M-S-034",
+            "name": "White T Shirt",
+            "img": "https://triprindia.com/cdn/shop/files/133close1_1024x.jpg?v=1708080238",
+            "price": "Rs. 1800",
+            "likes": 250,
+            "description": "A crisp white shirt, perfect wear.",
+            "sizes": ["M", "L", "XL"],
+            "color": ["White"]
+          },
+          {
+            "productId": "M-S-035",
+            "name": "casual shirt",
+            "img": "https://assets.ajio.com/medias/sys_master/root/20230505/KNIV/64552122d55b7d0c6397f889/-473Wx593H-469447329-blue-MODEL.jpg",
+            "price": "Rs. 1700",
+            "likes": 220,
+            "description": "A rugged denim shirt for a smart casual look.",
+            "sizes": ["M", "L", "XL"],
+            "color": ["Blue","White"]
+          },
+          {
+            "productId": "M-S-036",
+            "name": "Linen Summer Shirt",
+            "img": "https://www.montecarlo.in/cdn/shop/files/224066036-1-38_1.jpg?v=1729776131",
+            "price": "Rs. 1600",
+            "likes": 180,
+            "description": "A lightweight and breathable linen shirt.",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["black"]
+          }
+        ]
+      },
+      {
+        "subId": 202,
+        "name": "T-Shirts",
+        "products": [
+          {
+            "productId": "M-T-037",
+            "name": "Graphic Printed T-Shirt",
+            "img": "https://m.media-amazon.com/images/I/51xbFaQC2aL._SY741_.jpg",
+            "price": "Rs. 800",
+            "likes": 180,
+            "description": "A trendy printed T-shirt for casual outings.",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["Black"]
+          },
+          {
+            "productId": "M-T-038",
+            "name": "Plain Cotton T-Shirt",
+            "img": "https://images.bestsellerclothing.in/data/selected/31-jan-2024/118607001_g1.jpg?width=415&height=550&mode=fill&fill=blur&format=auto",
+            "price": "Rs. 700",
+            "likes": 190,
+            "description": "A soft and comfortable plain cotton T-shirt.",
+            "sizes": ["M", "L", "XL"],
+            "color": ["White", "Blue", "Green"]
+          },
+          {
+            "productId": "M-T-039",
+            "name": "Striped Polo T-Shirt",
+            "img": "https://cdn.shopify.com/s/files/1/0012/7339/7332/files/louis-vuitton-mens-spring-2020-41_1024x1024.jpg",
+            "price": "Rs. 1200",
+            "likes": 210,
+            "description": "A stylish striped polo T-shirt.",
+            "sizes": ["M", "L", "XL"],
+            "color": ["Blue", "Grey", "Black"]
+          },
+          {
+            "productId": "M-T-040",
+            "name": "Oversized Streetwear Tee",
+            "img": "https://cdn.shopify.com/s/files/1/0006/0420/9215/files/how_to_dress_well_casual_men_shirt_1000.jpg?width=3024x&v=1623127053",
+            "price": "Rs. 1100",
+            "likes": 230,
+            "description": "A trendy oversized T-shirt for streetwear lovers.",
+            "sizes": ["L", "XL", "XXL"],
+            "color": ["Black", "White"]
+          }
+        ]
+      },
+      {
+        "subId": 203,
+        "name": "Formal shirt",
+        "products": [
+          {
+            "productId": "M-A-041",
+            "name": "Formal shirt",
+            "img": "https://images.squarespace-cdn.com/content/v1/58cfd41c17bffcb09bd654f0/1714659587223-XIDPUZVQ3VGN8LEX7A0H/image-asset.jpeg",
+            "price": "Rs. 2200",
+            "likes": 240,
+            "description": "Perfect office wear.",
+            "sizes": ["30", "32", "34", "36"],
+            "color": ["Blue"]
+          },
+          {
+            "productId": "M-A-042",
+            "name": "Black Ripped Jeans",
+            "img": "https://d1fufvy4xao6k9.cloudfront.net/images/blog/posts/2022/11/tweed_suit4.jpg",
+            "price": "Rs. 2500",
+            "likes": 280,
+            "description": "Perfect office wear.",
+            "sizes": ["30", "32", "34", "36"],
+            "color": ["Black"]
+          },
+          {
+            "productId": "M-A-043",
+            "name": "Regular Fit Denim",
+            "img": "https://qph.cf2.quoracdn.net/main-qimg-aa848291158526fb6e03eca35acb5d83.webp",
+            "price": "Rs. 2000",
+            "likes": 190,
+            "description": "Perfect office wear.",
+            "sizes": ["30", "32", "34", "36"],
+            "color": ["Light Blue", "Dark Blue"]
+          },
+          {
+            "productId": "M-A-044",
+            "name": "Skinny Fit Stretch Jeans",
+            "img": "https://6edesign.com/wp-content/uploads/2024/01/b272f6d1380c4a2d4187e8a7b035cc58-828x1024.jpg.webp",
+            "price": "Rs. 2300",
+            "likes": 260,
+            "description": "Perfect office wear.",
+            "sizes": ["30", "32", "34", "36"],
+            "color": ["Black", "Blue"]
+          }
+        ]
+      },
+      {
+        "subId": 204,
+        "name": "Jackets",
+        "products": [
+          {
+            "productId": "M-C-045",
+            "name": "casual shirt",
+            "img": "https://campussutra.com/cdn/shop/files/CSMAWJK7003_1_b358d372-3074-41a6-808a-3de21fc49804.jpg?v=1728547961&width=800",
+            "price": "Rs. 2200",
+            "likes": 240,
+            "description": "Classic slim-fit jeans in a deep blue shade.",
+            "sizes": ["30", "32", "34", "36"],
+            "color": ["Blue"]
+          },
+          {
+            "productId": "M-C-046",
+            "name": "Jackets",
+            "img": "https://images-cdn.ubuy.co.in/65622f1d73a1de12da0ed0cf-tacvasen-men-39-s-jackets-bomber.jpg",
+            "price": "Rs. 2500",
+            "likes": 280,
+            "description": "Edgy black ripped jeans for a bold look.",
+            "sizes": ["30", "32", "34", "36"],
+            "color": ["Black"]
+          },
+          {
+            "productId": "M-C-047",
+            "name": "Jackets",
+            "img": "https://images-cdn.ubuy.co.in/6540c7e498a72815b453244b-decrum-hooded-leather-jacket-men.jpg",
+            "price": "Rs. 2000",
+            "likes": 190,
+            "description": "Comfortable and stylish regular-fit jeans.",
+            "sizes": ["30", "32", "34", "36"],
+            "color": ["Light Blue", "Dark Blue"]
+          },
+          {
+            "productId": "M-J-048",
+            "name": "Jackets",
+            "img": "https://www.snitch.co.in/cdn/shop/files/4MSK8622-02-M22s_dede3450-7ceb-41c6-841f-def08d6b3776.jpg?v=1732259311",
+            "price": "Rs. 2300",
+            "likes": 260,
+            "description": "Super comfortable Jackets",
+            "sizes": ["30", "32", "34", "36"],
+            "color": ["Black", "Blue"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "category": "kids",
+    "subcategories": [
+      {
+        "subId": 301,
+        "name": "kids T-Shirts",
+        "products": [
+          {
+            "productId": "M-N-049",
+            "name": "kids T-Shirt",
+            "img": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS5iFxZuLlmcbJ16W6krwVfvl4D_yxnj9l8A3VuiR90j35RkYMLFM-HE68m8KrQZJa98kqgtzGME9EAMkZ2TKTIPsGIomKyKZYTfjCXc4eJzEAzJ3wRv6c7",
+            "price": "Rs. 1500",
+            "likes": 200,
+            "description": "A comfortable and stylish casual checked shirt.",
+            "sizes": ["M", "L", "XL"],
+            "color": ["Red"]
+          },
+          {
+            "productId": "M-N-050",
+            "name": "Green Shirt",
+            "img": "https://sportsqvest.com/cdn/shop/products/KDT2086_-_Front_1200x.jpg?v=1688451423",
+            "price": "Rs. 1800",
+            "likes": 250,
+            "description": "kids wear.",
+            "sizes": ["M", "L", "XL"],
+            "color": ["green"]
+          },
+          {
+            "productId": "M-N-051",
+            "name": "white T Shirt",
+            "img": "https://printnstyle.in/wp-content/uploads/2024/11/CRMS-KID-08.jpg",
+            "price": "Rs. 1700",
+            "likes": 220,
+            "description": "A rugged denim shirt for a smart casual look.",
+            "sizes": ["M", "L", "XL"],
+            "color": ["Blue", "Black"]
+          },
+          {
+            "productId": "M-N-052",
+            "name": "Linen Summer Shirt",
+            "img": "https://www.apella.in/cdn/shop/files/Hot_Pink_Kids_Co-ord_Set_7.jpg?v=1722239409&width=533",
+            "price": "Rs. 1600",
+            "likes": 180,
+            "description": "A lightweight and breathable linen shirt.",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["pink"]
+          }
+        ]
+      },
+      {
+        "subId": 302,
+        "name": "T-Shirts",
+        "products": [
+          {
+            "productId": "M-B-053",
+            "name": "Graphic Printed T-Shirt",
+            "img": "https://bollywoo.ooo/cdn/shop/files/t-shirt-mockup-featuring-a-happy-girl-raising-her-hand-45913-r-el2_1.png?v=1715942259&width=900",
+            "price": "Rs. 800",
+            "likes": 180,
+            "description": "A trendy printed T-shirt for casual outings.",
+            "sizes": ["S", "M", "L", "XL"],
+            "color": ["Black", "Red", "Yellow"]
+          },
+          {
+            "productId": "M-B-054",
+            "name": "Plain Cotton T-Shirt",
+            "img": "https://www.anantexports.in/cdn/shop/files/IMG-20240526-WA0102_1080x.jpg?v=1716707942",
+            "price": "Rs. 700",
+            "likes": 190,
+            "description": "A soft and comfortable plain cotton T-shirt.",
+            "sizes": ["M", "L", "XL"],
+            "color": ["White", "Blue", "Green"]
+          },
+          {
+            "productId": "M-B-055",
+            "name": "Striped Polo T-Shirt",
+            "img": "https://lagorii.com/cdn/shop/files/peach-satin-dhoti-delight-party-wear-dress-for-girls-lagorii-kids-1.jpg?v=1703714663",
+            "price": "Rs. 1200",
+            "likes": 210,
+            "description": "A stylish striped polo T-shirt.",
+            "sizes": ["M", "L", "XL"],
+            "color": ["Blue", "Grey", "Black"]
+          },
+          {
+            "productId": "M-B-056",
+            "name": "Oversized Streetwear Tee",
+            "img": "https://www.tibertaber.com/cdn/shop/files/TiberTaberBabyBoyCreamSilkbandhgalaTTB23_085_3.jpg?v=1701842604&width=500",
+            "price": "Rs. 1100",
+            "likes": 230,
+            "description": "A trendy oversized T-shirt for streetwear lovers.",
+            "sizes": ["L", "XL", "XXL"],
+            "color": ["Black", "White"]
+          }
+        ]
+      },
+      {
+        "subId": 303,
+        "name": "Jeans",
+        "products": [
+          {
+            "productId": "M-B-057",
+            "name": "Slim Fit Blue Jeans",
+            "img": "https://asset1.marksandspencer.com/is/image/mands/949cfce95b061005e2eb554bddae8eb759e8382d?wid=620",
+            "price": "Rs. 2200",
+            "likes": 240,
+            "description": "Classic slim-fit jeans in a deep blue shade.",
+            "sizes": ["30", "32", "34", "36"],
+            "color": ["Blue"]
+          },
+          {
+            "productId": "M-B-058",
+            "name": "Black Ripped Jeans",
+            "img": "https://image.made-in-china.com/202f0j00iItqVdrhAwoW/Abckids-Custom-Wholesale-Big-Kids-Wear-Vendor-Summer-Children-Girl-Clothing-Kids-Clothes-Flower-Girls-Dress-with-Floral-Print.jpg",
+            "price": "Rs. 2500",
+            "likes": 280,
+            "description": "Edgy black ripped jeans for a bold look.",
+            "sizes": ["30", "32", "34", "36"],
+            "color": ["Black"]
+          },
+          {
+            "productId": "M-B-059",
+            "name": "Regular Fit Denim",
+            "img": "https://littlemuffet.in/cdn/shop/files/Twinning_Girls_Boys_Set.png?v=1715335230&width=540",
+            "price": "Rs. 2000",
+            "likes": 190,
+            "description": "Comfortable and stylish regular-fit jeans.",
+            "sizes": ["30", "32", "34", "36"],
+            "color": ["Light Blue", "Dark Blue"]
+          },
+          {
+            "productId": "M-B-060",
+            "name": "Skinny Fit Stretch Jeans",
+            "img": "https://lagorii.com/cdn/shop/files/peach-satin-dhoti-delight-party-wear-dress-for-girls-lagorii-kids-1.jpg?v=1703714663",
+            "price": "Rs. 2300",
+            "likes": 260,
+            "description": "Super comfortable stretchable skinny jeans.",
+            "sizes": ["30", "32", "34", "36"],
+            "color": ["Black", "Blue"]
+          }
+        ]
+      }
+    ]
+  }
+  
+  
+]

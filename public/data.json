@@ -1,35 +1,125 @@
 [
   {
     "id": 1,
-    "title": "Stylish Jacket",
+    "subcategory": "Stylish Jacket",
+    "category": "Women",
     "img": "https://images.bestsellerclothing.in/data/only/04-oct-2024/117060401_g0.jpg?width=380&height=500&mode=fill&fill=blur&format=auto",
     
     "user": "Trend Experts",
     "followers": 1200,
-    "totallikes": 100
+    "totallikes": 100,
+    "title": "New collection"
     
   },
+
   {
     "id": 2,
-    "title": "Casual Shoes",
-    "img": "https://fausto.in/cdn/shop/products/FST_FOBWC-1503_GOLDEN_1-1_MOOD_6611f676-23f5-4eb0-bd7b-c527c4123b70_400x.jpg?v=1679576984",
+    "subcategory": "Stylish Jacket",
+    "category": "Women",
+    "img": "https://classyleatherbags.com/cdn/shop/collections/Leather-Jaxcket-Women_9ed03401-9be1-43e0-8dcd-eaaf09912f2a_1350x1350.jpg?v=1683775316",
+    
     "user": "Trend Experts",
-    "followers": 900,
-    "totallikes": 150
+    "followers": 1200,
+    "totallikes": 100,
+    "title": "New collection"
     
   },
   {
     "id": 3,
-    "title": "T-Shirt",
-    "img": "https://twinbirds.co.in/cdn/shop/products/1516-SLIMFITTSHIRT-NAVYRIBBON.jpg?v=1680776094&width=1090",
+    "subcategory": "Stylish Jacket",
+    "category": "Women",
+    "img": "https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/23630072/2023/7/3/63976c86-7c88-412b-a96d-5c38d38a302f1688379846662-Leather-Retail-Women-Jackets-2551688379846209-1.jpg",
+    
     "user": "Trend Experts",
+    "followers": 1200,
+    "totallikes": 100,
+    "title": "New collection"
+    
+  },
+  
+  {
+    "id": 4,
+    "subcategory": "Casual Shoes",
+    "category": "Women",
+    "img": "https://fausto.in/cdn/shop/products/FST_FOBWC-1503_GOLDEN_1-1_MOOD_6611f676-23f5-4eb0-bd7b-c527c4123b70_400x.jpg?v=1679576984",
+    "user": "Trend Experts",
+    "title": "New collection",
     "followers": 900,
     "totallikes": 150
     
   },
   {
-    "id": 4,
-    "title": "Dresses",
+    "id": 5,
+    "subcategory": "ACCESSORIES",
+    "category": "Women",
+    "img": "https://assets.ajio.com/medias/sys_master/root/20230321/mMfQ/6418eae8aeb26924e3d6392e/-473Wx593H-465682086-gold-MODEL.jpg",
+    "user": "Trend Experts",
+    "followers": 900,
+    "title": "New collection",
+    "totallikes": 150
+   
+  },
+  {
+    "id": 6,
+    "subcategory": "ACCESSORIES",
+    "category": "Women",
+    "img": "https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/2024/JULY/31/6NMxAwqo_d47fcedf48a94beeb9527b93e1678668.jpg",
+    "user": "Trend Experts",
+    "followers": 900,
+    "title": "New collection",
+    "totallikes": 150
+   
+  },
+  {
+    "id": 7,
+    "subcategory": "ACCESSORIES",
+    "category": "Women",
+    "img": "https://www.kraywoods.com/cdn/shop/articles/unnamed_bd2175f0-58b8-474a-8fab-7fb0ecfe8e5a.jpg?v=1736959840&width=1100",
+    "user": "Trend Experts",
+    "followers": 900,
+    "title": "New collection",
+    "totallikes": 150
+   
+  },
+  {
+    "id": 8,
+    "subcategory": "T-Shirt",
+    "category": "Women",
+    "img": "https://twinbirds.co.in/cdn/shop/products/1516-SLIMFITTSHIRT-NAVYRIBBON.jpg?v=1680776094&width=1090",
+    "user": "Trend Experts",
+    "title": "New collection",
+    "followers": 900,
+    "totallikes": 150
+    
+  },
+  {
+    "id": 9,
+    "subcategory": "T-Shirt",
+    "category": "Women",
+    "img": "https://thehappyhumor.in/cdn/shop/files/rewine_women_oversized_NavyBlue_1646x.webp?v=1709305509",
+    "user": "Trend Experts",
+    "title": "New collection",
+    "followers": 900,
+    "totallikes": 150
+    
+  },
+  
+  {
+    "id": 10,
+    "subcategory": "T-Shirt",
+    "category": "Women",
+    "img": "https://fcity.in/images/products/391547480/cn2jw_512.jpg",
+    "user": "Trend Experts",
+    "title": "New collection",
+    "followers": 900,
+    "totallikes": 150
+    
+  },
+  {
+    "id": 11,
+    "subcategory": "Dresses",
+    "title": "New collection",
+    "category": "Women",
     "img": "https://www.shoplibas.com/cdn/shop/files/37069_0af135c0-a114-47ee-9226-a47ae8bd7478.jpg?v=1739274930",
    "user": "Trend Experts",
     "followers": 900,
@@ -37,39 +127,175 @@
     
   },
   {
-    "id": 5,
-    "title": "FROCKS",
-    "img": "https://m.media-amazon.com/images/I/7103YD5h4ML._AC_UY350_.jpg",
-    "user": "Trend Experts",
+    "id": 12,
+    "subcategory": "Dresses",
+    "title": "New collection",
+    "category": "Women",
+    "img": "https://rukminim2.flixcart.com/image/850/1000/xif0q/kurta/4/j/h/xxl-j1087blackrdnk-jollity-original-imagghb6hn7cuckg.jpeg?q=90&crop=false",
+   "user": "Trend Experts",
     "followers": 900,
     "totallikes": 150
     
   },
   {
-    "id": 6,
-    "title": "ACCESSORIES",
-    "img": "https://assets.ajio.com/medias/sys_master/root/20230321/mMfQ/6418eae8aeb26924e3d6392e/-473Wx593H-465682086-gold-MODEL.jpg",
+    "id": 13,
+    "subcategory": "Dresses",
+    "title": "New collection",
+    "category": "Women",
+    "img": "https://www.biba.in/dw/image/v2/BKQK_PRD/on/demandware.static/-/Sites-biba-product-catalog/default/dw6b410d81/images/ss25/wabisabi3014ss25owhtblk_1.jpg?sw=242&sh=363",
+   "user": "Trend Experts",
+    "followers": 900,
+    "totallikes": 150
+    
+  },
+  {
+    "id": 14,
+    "subcategory": "Dresses",
+    "title": "New collection",
+    "category": "Women",
+    "img": "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2024/OCTOBER/21/6yluxQL3_d01b23632c1c409ba30c65d6ecb9ca15.jpg",
+   "user": "Trend Experts",
+    "followers": 900,
+    "totallikes": 150
+    
+  },
+
+  {
+    "id": 15,
+    "subcategory": "FROCKS",
+    "category": "Women",
+    "img": "https://m.media-amazon.com/images/I/7103YD5h4ML._AC_UY350_.jpg",
     "user": "Trend Experts",
     "followers": 900,
+    "title": "New collection",
+    "totallikes": 150
+    
+  },
+  
+  {
+    "id": 16,
+    "subcategory": "ACCESSORIES",
+    "category": "Women",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN_QVXc418--HyfdpKUNSnXN_6lJm7Gu29ag&s",
+    "user": "Trend Experts",
+    "followers": 900,
+    "title": "New collection",
     "totallikes": 150
    
   },
   {
-    "id": 7,
-    "title": "SAREES",
+    "id": 17,
+    "subcategory": "SAREES",
+    "category": "Women",
     "img": "https://sudathi.com/cdn/shop/files/3731S176_1.jpg?v=1717583858",
     "user": "Jane Doe",
     "followers": 900,
+    "title": "New collection",
     "totallikes": 150
     
   },
   {
-    "id": 8,
-    "title": "HOME",
+    "id": 18,
+    "subcategory": "SAREES",
+    "category": "Women",
+    "img": "https://static.wixstatic.com/media/4594f8_ff7347cb7afc43cf909da1d7669e0f1c~mv2.jpg/v1/fill/w_480,h_644,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/4594f8_ff7347cb7afc43cf909da1d7669e0f1c~mv2.jpg",
+    "user": "Jane Doe",
+    "followers": 900,
+    "title": "New collection",
+    "totallikes": 150
+    
+  },
+  {
+    "id": 19,
+    "subcategory": "SAREES",
+    "category": "Women",
+    "img": "https://empress-clothing.com/cdn/shop/files/SL8412.jpg?v=1727850744",
+    "user": "Jane Doe",
+    "followers": 900,
+    "title": "New collection",
+    "totallikes": 150
+    
+  },
+  {
+    "id": 20,
+    "subcategory": "SAREES",
+    "category": "Women",
+    "img": "https://ibisfab.com/cdn/shop/products/pure-banarasi-silk-sarees-dark-green-colour-wedding-wear-6.jpg?v=1716027008&width=1946",
+    "user": "Jane Doe",
+    "followers": 900,
+    "title": "New collection",
+    "totallikes": 150
+    
+  },
+
+  {
+    "id": 21,
+    "subcategory": "HOME",
+    "category": "Women",
     "img": "https://i.pinimg.com/550x/72/a3/3d/72a33d2bf5102a75013c4645bf866346.jpg",
     "user": "Jane Doe",
     "followers": 900,
+    "title": "New collection",
     "totallikes": 150
     
-  }
+  },
+
+
+  
+    {
+      "id": 22,
+      "subcategory": "Men T-Shirt",
+      "category": "Men",
+      "img": "https://images.bewakoof.com/t1080/men-s-brown-oversized-t-shirt-540863-1737092570-1.jpg",
+      "user": "Jane Doe",
+      "followers": 900,
+      "title": "New collection",
+      "totallikes": 150
+    },
+    {
+      "id": 23,
+      "subcategory": "Jackets",
+      "category": "Men",
+      "img": "https://campussutra.com/cdn/shop/files/CSMAWJK7003_1_b358d372-3074-41a6-808a-3de21fc49804.jpg?v=1728547961&width=800",
+      "user": "Jane Doe",
+      "followers": 900,
+      "title": "New collection",
+      "totallikes": 150
+    },
+    {
+      "id": 24,
+      "subcategory": "Men Casual",
+      "category": "Men",
+      "img": "https://m.media-amazon.com/images/I/81wy4PsxSCL._AC_UY1100_.jpg",
+      "user": "Jane Doe",
+      "followers": 900,
+      "title": "New collection",
+      "totallikes": 150
+    },
+    {
+      "id": 25,
+      "subcategory": "Men Shoes",
+      "category": "Men",
+      "img": "https://assets.ajio.com/medias/sys_master/root/20240129/BECS/65b6bf0a16fd2c6e6ac45b86/-473Wx593H-467014777-tan-MODEL7.jpg",
+      "user": "Jane Doe",
+      "followers": 900,
+      "title": "New collection",
+      "totallikes": 150
+    },
+    {
+      "id": 26,
+      "subcategory": "kids T-Shirts",
+      "category": "Kids",
+      "img": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS5iFxZuLlmcbJ16W6krwVfvl4D_yxnj9l8A3VuiR90j35RkYMLFM-HE68m8KrQZJa98kqgtzGME9EAMkZ2TKTIPsGIomKyKZYTfjCXc4eJzEAzJ3wRv6c7",
+      "user": "Jane Doe",
+      "followers": 900,
+      "title": "New collection",
+      "totallikes": 150
+    }
+  
+    
+  
+  
+  
+
 ]

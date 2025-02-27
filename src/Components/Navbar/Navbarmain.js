@@ -3,23 +3,51 @@ import React from "react";
 import "../Navbar/Navbar.css";
 import logo from "../../assets/lime_logo.png";
 import { BsFillPencilFill } from "react-icons/bs";
-import { AiOutlineSearch, AiOutlineUser } from "react-icons/ai"; 
+import { AiOutlineSearch, AiOutlineUser } from "react-icons/ai";
 import { HiShoppingCart } from "react-icons/hi";
-
-
-
-import { Link } from "react-router-dom";
-
+import { useSelector } from "react-redux";
+import LoginModal from "../../SignUpLogin/Login";
+import { useDisclosure } from "@chakra-ui/react";
+import { Link, useNavigate } from "react-router-dom";
 
 const Navbarmain = () => {
   const [showProfileDropdown, setShowProfileDropdown] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(
+    localStorage.getItem("authToken") ? true : false
+  );
   const profileRef = useRef(null);
+  const navigate = useNavigate();
+  const cartItemCount = useSelector((state) =>
+    state.cart.cartItems.reduce((total, item) => total + item.quantity, 0)
+  );
 
-  
   const handleProfileClick = () => {
     setShowProfileDropdown((prev) => !prev);
   };
 
+  const { isOpen, onOpen, onClose } = useDisclosure();
+
+  const handleLoginSuccess = (token) => {
+    console.log("Received Token:", token); 
+  
+    if (!token) {
+      console.error(" No token received!");
+      return;
+    }
+  
+    setIsLoggedIn(true);
+    localStorage.setItem("authToken", token);
+    onClose();
+  };
+  
+  
+
+  const handleLogout = () => {
+    setIsLoggedIn(false);
+    setShowProfileDropdown(false);
+    localStorage.removeItem("authToken"); 
+   onOpen();
+  };
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -45,23 +73,23 @@ const Navbarmain = () => {
           <nav>
             <ul>
             <li className="hover-effect">
-                <Link to="#">WOMEN</Link>
+                <Link to="/women">WOMEN</Link>
                
                 <div className="menu">
                 <div className="menu-items">
                     <h3>Ethnic Wear</h3>
                     <ul>
                       <li>
-                        <Link to="#">Kurtas</Link>
+                        <Link to={`/women-category/Dresses`}>Dresses</Link>
                       </li>
                       <li>
-                        <Link to="#">Ethnic Wear Sets</Link>
+                        <Link to={`/women-category/SAREES`}>Sarees</Link>
                       </li>
                       <li>
-                        <Link to="#">Nehru Jackets</Link>
+                        <Link to={`/women-category/Stylish Jacket`}>Denim Jackets</Link>
                       </li>
                       <li>
-                        <Link to="#">Ethnic Bottom Wear</Link>
+                        <Link to={`/women-category/Ethinc Bottom Wear`}>Ethnic Bottom Wear</Link>
                       </li>
                     </ul>
                   </div>
@@ -69,22 +97,16 @@ const Navbarmain = () => {
                     <h3>Western Wears</h3>
                     <ul>
                       <li>
-                        <Link to="#">T-Shirts</Link>
+                        <Link to={`/women-category/T-Shirt`}>T-Shirts</Link>
                       </li>
                       <li>
-                        <Link to="#">Polo T Shirts</Link>
+                        <Link to={`/women-category/FROCKS`}>FROCKS</Link>
                       </li>
                       <li>
                         <Link to="#">Casual Shirts</Link>
                       </li>
                       <li>
-                        <Link to="#">Formal Shirts</Link>
-                      </li>
-                      <li>
-                        <Link to="#">Suits & Blazers</Link>
-                      </li>
-                      <li>
-                        <Link to="#">Jackets</Link>
+                      <Link to={`/women-category/Stylish Jacket`}>Jackets</Link>
                       </li>
                       <li>
                         <Link to="#">Sweaters & Sweatshirts</Link>
@@ -98,26 +120,18 @@ const Navbarmain = () => {
                     <h3>Footwear</h3>
                     <ul>
                       <li>
-                        <Link to="#">Casual Shoes</Link>
+                        <Link to={`/women-category/Casual Shoes`}>Casual Shoes</Link>
                       </li>
                       <li>
-                        <Link to="#">Sports Shoes</Link>
+                        <Link to={`/women-category/Casual Shoes`}>Sports Shoes</Link>
                       </li>
                       <li>
-                        <Link to="#">Casual Shirts</Link>
+                        <Link to={`/women-category/Casual Shoes`}>Casual Shirts</Link>
                       </li>
                       <li>
-                        <Link to="#">Formal Shoes</Link>
+                        <Link to={`/women-category/Casual Shoes`}>Formal Shoes</Link>
                       </li>
-                      <li>
-                        <Link to="#">Jutis And Mojaris</Link>
-                      </li>
-                      <li>
-                        <Link to="#">Slippers & Sandals</Link>
-                      </li>
-                      <li>
-                        <Link to="#">Socks</Link>
-                      </li>
+                     
                     </ul>
                   </div>
 
@@ -222,33 +236,27 @@ const Navbarmain = () => {
               </li>
               <li className="hover-effect">
                 
-                <Link to="#">MEN</Link>
+                <Link to="/men">MEN</Link>
               
                 <div className="menu">
                   <div className="menu-items">
                     <h3>Top Wears</h3>
                     <ul>
                       <li>
-                        <Link to="#">T-Shirts</Link>
+                        <Link to={`/men-category/Men T-Shirt`}>T-Shirts</Link>
+                      </li>
+                      
+                      <li>
+                        <Link to={`/men-category/casual shirt`}>Casual Shirts</Link>
                       </li>
                       <li>
-                        <Link to="#">Polo T Shirts</Link>
+                        <Link to={`/men-category/Formal shirt`}>Formal Shirts</Link>
                       </li>
+                     
                       <li>
-                        <Link to="#">Casual Shirts</Link>
+                        <Link to={`/men-category/Jackets`}>Jackets</Link>
                       </li>
-                      <li>
-                        <Link to="#">Formal Shirts</Link>
-                      </li>
-                      <li>
-                        <Link to="#">Suits & Blazers</Link>
-                      </li>
-                      <li>
-                        <Link to="#">Jackets</Link>
-                      </li>
-                      <li>
-                        <Link to="#">Sweaters & Sweatshirts</Link>
-                      </li>
+                   
                     </ul>
                   </div>
 
@@ -264,9 +272,7 @@ const Navbarmain = () => {
                       <li>
                         <Link to="#">Nehru Jackets</Link>
                       </li>
-                      <li>
-                        <Link to="#">Ethnic Bottom Wear</Link>
-                      </li>
+                     
                     </ul>
                   </div>
 
@@ -288,12 +294,7 @@ const Navbarmain = () => {
                       <li>
                         <Link to="#">Jutis And Mojaris</Link>
                       </li>
-                      <li>
-                        <Link to="#">Slippers & Sandals</Link>
-                      </li>
-                      <li>
-                        <Link to="#">Socks</Link>
-                      </li>
+                     
                     </ul>
                   </div>
 
@@ -398,14 +399,14 @@ const Navbarmain = () => {
               </li>
               <li className="hover-effect">
                 <Link to="/products">
-                  <Link to="#">Kids</Link>
+                  <Link to="/kids">Kids</Link>
                 </Link>
                 <div className="menu">
                   <div className="menu-items">
                     <h3>Top Wears</h3>
                     <ul>
                       <li>
-                        <Link to="#">T-Shirts</Link>
+                        <Link to={`/kids-category/kids T-Shirts`}>T-Shirts</Link>
                       </li>
                       <li>
                         <Link to="#">Polo T Shirts</Link>
@@ -666,38 +667,49 @@ const Navbarmain = () => {
       <p className="icon-name">SEARCH</p>
     </span>
 
-    <Link to="/cart">
-      <span className="icon-div">
-        <HiShoppingCart className="header-icon" />
-        <p className="icon-name">CART</p>
-      </span>
-    </Link>
+    <Link to="/cart" className="cart-link">
+        <span className="icon-div">
+          <HiShoppingCart className="header-icon" />
+          <p className="icon-name">CART</p>
+          {cartItemCount > 0 && <span className="cart-count">{cartItemCount}</span>}
+        </span>
+      </Link>
 
    
-    <li className="profile-dropdown" ref={profileRef}>
-  <span className="icon-div" onClick={handleProfileClick}>
-    <AiOutlineUser className="header-icon" />
-    <p className="icon-name">PROFILE</p>
-  </span>
-
-  {showProfileDropdown && (
-    <div className="dropdown-content">
-      <p>Welcome!</p>
-      <p>To view account details</p>
-      <Link to="/login">Login</Link>
-      <Link to="/orders">Orders</Link>
-      <Link to="/returns">Return & Replacement</Link>
-      <Link to="/credits">LR Credits</Link>
-      <Link to="/support">Customer Support</Link>
-      <Link to="/faq">FAQ & Help</Link>
-      <p>हिन्दी</p>
-    </div>
-  )}
-</li>
+      <li className="profile-dropdown" ref={profileRef}>
+                <span className="icon-div" onClick={handleProfileClick}>
+                  <AiOutlineUser className="header-icon" />
+                  <p className="icon-name">PROFILE</p>
+                </span>
+                {showProfileDropdown && (
+                  <div className="dropdown-content">
+                    <p>Welcome!</p>
+                    <p>To view account details {isLoggedIn}</p>
+                    
+                    
+                    {isLoggedIn ? (
+                      <p onClick={handleLogout} style={{ cursor: "pointer", color: "red" }}>
+                        Logout
+                      </p>
+                    ) : (
+                      <p onClick={onOpen} style={{ cursor: "pointer", color: "red" }}>
+                        Login
+                      </p>
+                    )}
+                    <Link to="/orders">Orders</Link>
+                    <Link to="/returns">Return & Replacement</Link>
+                    <Link to="/credits">LR Credits</Link>
+                    <Link to="/support">Customer Support</Link>
+                    <Link to="/faq">FAQ & Help</Link>
+                    <p>हिन्दी</p>
+                  </div>
+                )}
+              </li>
 
 
   </div>
           </div>
+          <LoginModal isOpen={isOpen} onClose={onClose} onLoginSuccess={handleLoginSuccess} />
         </div>
       </header>
     </>

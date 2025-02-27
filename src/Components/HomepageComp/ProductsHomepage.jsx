@@ -3,30 +3,51 @@ import { Stack, SimpleGrid, Text, useBreakpointValue } from "@chakra-ui/react";
 import { BsSuitHeart, BsSuitHeartFill, BsWhatsapp } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
-const ProductsHomepage = () => {
-  const [data, setData] = useState([]);
-  const [likedItems, setLikedItems] = useState({}); 
+const ProductsHomepage = ({ selectedCategory, selectedSubcategory }) => {
+  console.log(selectedCategory, "Selected");
 
-  
+  const [data, setData] = useState([]);
+  const [likedItems, setLikedItems] = useState({});
+
   const getData = async () => {
     try {
-      const response = await fetch("/data.json");
+      const response = await fetch("http://localhost:5000/api/products");
+
       const jsonData = await response.json();
-      setData(jsonData);
+      console.log("Raw JSON Data:", jsonData);
+
+      // selectedCategory
+      const filteredData = jsonData.filter((item) =>
+        item.category ===
+          (selectedCategory === "WOMEN"
+            ? "Women"
+            : selectedCategory === "MEN"
+            ? "Men"
+            : selectedCategory === "KIDS"
+            ? "Kids"
+            : "")
+      );
+
+      
+      const finalData = selectedSubcategory
+        ? filteredData.filter(
+            (item) => item.subcategory === selectedSubcategory
+          )
+        : filteredData; 
+      setData(finalData); 
     } catch (error) {
       console.error("Error fetching data:", error);
     }
   };
 
   useEffect(() => {
-    getData();
-  }, []);
+    getData(); 
+  }, [selectedCategory, selectedSubcategory]);
 
-  
   const handleLike = (id) => {
     setLikedItems((prev) => ({
       ...prev,
-      [id]: !prev[id], 
+      [id]: !prev[id],
     }));
   };
 
@@ -43,25 +64,35 @@ const ProductsHomepage = () => {
             {el.title}
           </Text>
 
-          <Link to={`/products/${el.title}`}>
+          
+          <Link to={`/${selectedCategory.toLowerCase()}-category/${encodeURIComponent(el.subcategory)}`}>
             <img
-              style={{ cursor: "pointer" }}
+              style={{
+                cursor: "pointer",
+                height: "400px", 
+                objectFit: "cover", 
+                width: "100%", 
+              }}
               src={el.img}
               alt={el.title}
             />
           </Link>
 
+
           <Stack pl={"5px"} direction={"row"}>
             <Stack fontWeight={"500"} lineHeight={"10px"}>
               <Stack direction={"row"}>
-                <Text fontSize={"13px"} opacity={"70%"}>By</Text>
+                <Text fontSize={"13px"} opacity={"70%"}>
+                  By
+                </Text>
                 <Text fontSize={"15px"}>{el.user}</Text>
               </Stack>
-              <Text fontSize={"13px"} opacity={"70%"}>{el.followers} Followers</Text>
+              <Text fontSize={"13px"} opacity={"70%"}>
+                {el.followers} Followers
+              </Text>
             </Stack>
 
             <Stack position={"relative"} bottom="40px" direction={"row"}>
-              
               <Stack align={"center"}>
                 <Stack
                   _hover={{ cursor: "pointer" }}
@@ -75,9 +106,9 @@ const ProductsHomepage = () => {
                   onClick={() => handleLike(el.id)}
                 >
                   {likedItems[el.id] ? (
-                    <BsSuitHeartFill color="red" fontSize={"32px"} /> 
+                    <BsSuitHeartFill color="red" fontSize={"32px"} />
                   ) : (
-                    <BsSuitHeart color="#D3145A" fontSize={"32px"} /> 
+                    <BsSuitHeart color="#D3145A" fontSize={"32px"} />
                   )}
                 </Stack>
                 <Text fontWeight={"500"} fontSize={"11px"}>
@@ -85,7 +116,7 @@ const ProductsHomepage = () => {
                 </Text>
               </Stack>
 
-              {/* Share icon design*/}
+              {/* Share icon design */}
               <Stack>
                 <Stack align={"center"}>
                   <Stack
@@ -101,7 +132,9 @@ const ProductsHomepage = () => {
                   >
                     <BsWhatsapp fontSize={"32px"} color={"#9FDA65"} />
                   </Stack>
-                  <Text fontWeight={"500"} fontSize={"11px"}>Share</Text>
+                  <Text fontWeight={"500"} fontSize={"11px"}>
+                    Share
+                  </Text>
                 </Stack>
               </Stack>
             </Stack>

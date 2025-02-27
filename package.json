@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@chakra-ui/icons": "^2.2.4",
     "@chakra-ui/react": "^2.4.9",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
+    "@mui/material": "^5.16.14",
+    "@mui/system": "^5.16.14",
+    "@reduxjs/toolkit": "^2.5.1",
     "axios": "^1.7.9",
     "better-react-carousel": "^1.1.2",
     "bootstrap": "^5.3.3",
@@ -14,8 +18,11 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.4.0",
+    "react-redux": "^9.2.0",
     "react-router-dom": "^7.1.5",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.30.3",
+    "slick-carousel": "^1.8.1",
     "web-vitals": "^4.2.4"
   },
   "scripts": {
