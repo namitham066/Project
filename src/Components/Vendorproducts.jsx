@@ -32,13 +32,15 @@ const ProductForm = () => {
 
   
   useEffect(() => {
-    const storedVendor = JSON.parse(localStorage.getItem("vendor"));
+    const vendorId = localStorage.getItem("vendor");
     const token = localStorage.getItem("token");  
   
-    console.log("Local Storage Vendor:", storedVendor);
+    console.log("Local Storage Vendor:", vendorId);
     console.log(" Local Storage Token:", token);
-  
-    if (!storedVendor || !storedVendor.id || !token) {
+    
+    console.log("🚀 ~ useEffect ~ token:", token)
+    console.log("🚀 ~ useEffect ~ vendorId:", vendorId)
+    if (!vendorId || !token) {
       toast({
         title: "Authentication Error",
         description: "You must be logged in as a vendor to add products.",

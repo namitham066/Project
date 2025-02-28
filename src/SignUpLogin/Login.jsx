@@ -95,20 +95,22 @@ const Login = ({ isOpen, onClose, onLoginSuccess }) => {
     localStorage.setItem("token", result.token); 
     localStorage.setItem("role", result.role);
     localStorage.setItem("user", JSON.stringify({
-      // emailOrPhone: formData.emailOrPhone,
-      // role: result.role,
+      emailOrPhone: formData.emailOrPhone,
+      role: result.role,
       vendorId: result.vendorId, 
     }));
 
     
     if (result.role === "vendor") {
+      console.log("🚀 ~ handleAuthAction ~ result:", result)
+      localStorage.setItem("vendor", result.vendorId); 
       setTimeout(() => navigate("/vendor-dashboard"), 500);
     } else {
       setTimeout(() => navigate("/"), 500);
     }
 
     onClose();
-    onLoginSuccess();
+    onLoginSuccess(result.token);
   } catch (error) {
     alert(error.message || "Something went wrong. Please try again!");
   }

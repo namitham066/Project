@@ -28,25 +28,27 @@ const Navbarmain = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   const handleLoginSuccess = (token) => {
-    console.log("Received Token:", token); 
-  
+    console.log("Received Token:", token);
+
     if (!token) {
       console.error(" No token received!");
       return;
     }
-  
+
     setIsLoggedIn(true);
     localStorage.setItem("authToken", token);
     onClose();
   };
-  
-  
+
+
 
   const handleLogout = () => {
     setIsLoggedIn(false);
     setShowProfileDropdown(false);
-    localStorage.removeItem("authToken"); 
-   onOpen();
+    localStorage.clear();
+    alert("Logged Out Successfully!");
+    navigate("/");
+    //  onOpen();
   };
 
   useEffect(() => {
@@ -72,11 +74,11 @@ const Navbarmain = () => {
           </Link>
           <nav>
             <ul>
-            <li className="hover-effect">
+              <li className="hover-effect">
                 <Link to="/women">WOMEN</Link>
-               
+
                 <div className="menu">
-                <div className="menu-items">
+                  <div className="menu-items">
                     <h3>Ethnic Wear</h3>
                     <ul>
                       <li>
@@ -106,7 +108,7 @@ const Navbarmain = () => {
                         <Link to="#">Casual Shirts</Link>
                       </li>
                       <li>
-                      <Link to={`/women-category/Stylish Jacket`}>Jackets</Link>
+                        <Link to={`/women-category/Stylish Jacket`}>Jackets</Link>
                       </li>
                       <li>
                         <Link to="#">Sweaters & Sweatshirts</Link>
@@ -114,7 +116,7 @@ const Navbarmain = () => {
                     </ul>
                   </div>
 
-                  
+
 
                   <div className="menu-items">
                     <h3>Footwear</h3>
@@ -131,7 +133,7 @@ const Navbarmain = () => {
                       <li>
                         <Link to={`/women-category/Casual Shoes`}>Formal Shoes</Link>
                       </li>
-                     
+
                     </ul>
                   </div>
 
@@ -231,13 +233,13 @@ const Navbarmain = () => {
                       </li>
                     </ul>
                   </div>
-                  
+
                 </div>
               </li>
               <li className="hover-effect">
-                
+
                 <Link to="/men">MEN</Link>
-              
+
                 <div className="menu">
                   <div className="menu-items">
                     <h3>Top Wears</h3>
@@ -245,18 +247,18 @@ const Navbarmain = () => {
                       <li>
                         <Link to={`/men-category/Men T-Shirt`}>T-Shirts</Link>
                       </li>
-                      
+
                       <li>
                         <Link to={`/men-category/casual shirt`}>Casual Shirts</Link>
                       </li>
                       <li>
                         <Link to={`/men-category/Formal shirt`}>Formal Shirts</Link>
                       </li>
-                     
+
                       <li>
                         <Link to={`/men-category/Jackets`}>Jackets</Link>
                       </li>
-                   
+
                     </ul>
                   </div>
 
@@ -272,7 +274,7 @@ const Navbarmain = () => {
                       <li>
                         <Link to="#">Nehru Jackets</Link>
                       </li>
-                     
+
                     </ul>
                   </div>
 
@@ -294,7 +296,7 @@ const Navbarmain = () => {
                       <li>
                         <Link to="#">Jutis And Mojaris</Link>
                       </li>
-                     
+
                     </ul>
                   </div>
 
@@ -394,13 +396,11 @@ const Navbarmain = () => {
                       </li>
                     </ul>
                   </div>
-                  
+
                 </div>
               </li>
               <li className="hover-effect">
-                <Link to="/products">
-                  <Link to="/kids">Kids</Link>
-                </Link>
+                <Link to="/kids">KIDS</Link>
                 <div className="menu">
                   <div className="menu-items">
                     <h3>Top Wears</h3>
@@ -570,13 +570,13 @@ const Navbarmain = () => {
                       </li>
                     </ul>
                   </div>
-                  
+
                 </div>
               </li>
               <li className="hover-effect">
-                
+
                 <Link to="#">Home</Link>
-              
+
                 <div className="menu">
                   <div className="menu-items">
                     <h3>Bed Linen and Furnishing</h3>
@@ -617,7 +617,7 @@ const Navbarmain = () => {
                       <li>
                         <Link to="#">shower Curtains</Link>
                       </li>
-                     
+
                     </ul>
                   </div>
 
@@ -633,12 +633,12 @@ const Navbarmain = () => {
                       <li>
                         <Link to="#">Casuals</Link>
                       </li>
-                      
+
                     </ul>
                   </div>
 
-                 
-                  
+
+
                 </div>
               </li>
               <li className="hover-effect">
@@ -661,22 +661,22 @@ const Navbarmain = () => {
                 <p className="icon-name">SCRAPBOOKS</p>
               </span>
 
-             
-    <span className="icon-div">
-      <AiOutlineSearch className="header-icon" />
-      <p className="icon-name">SEARCH</p>
-    </span>
 
-    <Link to="/cart" className="cart-link">
-        <span className="icon-div">
-          <HiShoppingCart className="header-icon" />
-          <p className="icon-name">CART</p>
-          {cartItemCount > 0 && <span className="cart-count">{cartItemCount}</span>}
-        </span>
-      </Link>
+              <span className="icon-div">
+                <AiOutlineSearch className="header-icon" />
+                <p className="icon-name">SEARCH</p>
+              </span>
 
-   
-      <li className="profile-dropdown" ref={profileRef}>
+              <Link to="/cart" className="cart-link">
+                <span className="icon-div">
+                  <HiShoppingCart className="header-icon" />
+                  <p className="icon-name">CART</p>
+                  {cartItemCount > 0 && <span className="cart-count">{cartItemCount}</span>}
+                </span>
+              </Link>
+
+
+              <li className="profile-dropdown" ref={profileRef}>
                 <span className="icon-div" onClick={handleProfileClick}>
                   <AiOutlineUser className="header-icon" />
                   <p className="icon-name">PROFILE</p>
@@ -685,8 +685,8 @@ const Navbarmain = () => {
                   <div className="dropdown-content">
                     <p>Welcome!</p>
                     <p>To view account details {isLoggedIn}</p>
-                    
-                    
+
+
                     {isLoggedIn ? (
                       <p onClick={handleLogout} style={{ cursor: "pointer", color: "red" }}>
                         Logout
@@ -707,7 +707,7 @@ const Navbarmain = () => {
               </li>
 
 
-  </div>
+            </div>
           </div>
           <LoginModal isOpen={isOpen} onClose={onClose} onLoginSuccess={handleLoginSuccess} />
         </div>

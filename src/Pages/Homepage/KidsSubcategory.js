@@ -28,7 +28,7 @@ const KidsSubcategory = () => {
         const jsonData = await response.json();
 
         
-        const kidsCategory = jsonData.find((item) => item.category === "kids");
+        const kidsCategory = jsonData.find((item) => item.category === "Kids");
 
         if (kidsCategory) {
           const foundSubcategories = kidsCategory.subcategories.filter(

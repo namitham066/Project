@@ -56,7 +56,7 @@ const MenSubcategory = () => {
 
   // Filter products based on price and color selection
   const filteredData = subcategoryData.filter((item) => {
-    const price = parseInt(item.price?.replace("Rs. ", "").trim(), 10);
+    const price = item.price;
     const min = minPrice ? parseInt(minPrice, 10) : 0;
     const max = maxPrice ? parseInt(maxPrice, 10) : Infinity;
     const matchesPrice = price >= min && price <= max;

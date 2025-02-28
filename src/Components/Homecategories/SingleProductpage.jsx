@@ -31,6 +31,7 @@ const SingleProductPage = () => {
             );
             if (foundProduct) {
               selectedProduct = foundProduct;
+              console.log("🚀 ~ category.subcategories.forEach ~ selectedProduct:", selectedProduct)
 
               // Find Similar Products based on Category and Subcategory
               similarItems = sub.products.filter(
@@ -63,10 +64,6 @@ const SingleProductPage = () => {
     const token = localStorage.getItem("token");
     const role = localStorage.getItem("role");
 
-    console.log("Adding to cart...");
-  console.log("Token:", token);
-  console.log("Role:", role);
-
     if (!token || role !== "customer") {
         alert("Login as a customer to add products to the cart.");
         return;
@@ -84,7 +81,7 @@ const SingleProductPage = () => {
                 "Content-Type": "application/json",
                 Authorization: token ? `Bearer ${token}` : "",
             },
-            body: JSON.stringify({ productId: product._id, quantity: 1 }),
+            body: JSON.stringify({ productId: product._id, quantity: 1, size: selectedSize, image: product.img, price: product.price, name: product.name }),
         });
 
         const data = await res.json();
@@ -178,6 +175,13 @@ const SingleProductPage = () => {
               ))}
             </HStack>
           )}
+
+
+
+            <HStack>
+              <Text fontWeight="bold">Available quantity</Text>
+              <Text>{product.quantity}</Text>
+            </HStack>
 
           <Button
             bg="lightgreen"

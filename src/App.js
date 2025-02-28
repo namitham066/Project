@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     document.title = "LIME ROAD";
   
-    const storedVendor = JSON.parse(localStorage.getItem("vendor"));
+    const storedVendor = localStorage.getItem("vendor");
     if (storedVendor) {
       setLoggedInVendor(storedVendor);
     }
